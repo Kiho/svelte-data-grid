@@ -1,4 +1,5 @@
-const DeepDiff = require('deep-diff');
+import DeepDiff from 'deep-diff';
+
 const applyChange = DeepDiff.applyChange;
 const diff = DeepDiff.diff;
 /**

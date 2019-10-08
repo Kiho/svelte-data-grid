@@ -10,7 +10,7 @@ const name = pkg.name
 
 export default [
 	{
-		input: 'src/data-grid.html',
+		input: 'src/data-grid.svelte',
 		output: [
 			{ file: pkg.module, 'format': 'es' },
 			{ file: pkg.main, 'format': 'umd', name }
@@ -22,7 +22,7 @@ export default [
 		]
 	},
 	{
-		input: 'src/select-cell.html',
+		input: 'src/select-cell.svelte',
 		output: [
 			{ file: 'select-cell.mjs', 'format': 'es' },
 			{ file: 'select-cell.js', 'format': 'umd', name: 'select-cell' }
@@ -34,7 +34,7 @@ export default [
 		]
 	},
 	{
-		input: 'src/textbox-cell.html',
+		input: 'src/textbox-cell.svelte',
 		output: [
 			{ file: 'textbox-cell.mjs', 'format': 'es' },
 			{ file: 'textbox-cell.js', 'format': 'umd', name: 'textbox-cell' }
@@ -46,7 +46,7 @@ export default [
 		]
 	},
 	{
-		input: 'src/checkbox-cell.html',
+		input: 'src/checkbox-cell.svelte',
 		output: [
 			{ file: 'checkbox-cell.mjs', 'format': 'es' },
 			{ file: 'checkbox-cell.js', 'format': 'umd', name: 'checkbox-cell' }
